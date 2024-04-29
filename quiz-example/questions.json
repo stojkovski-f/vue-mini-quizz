@@ -1,0 +1,26 @@
+{
+    "questions" : {
+        "q1": {
+            "questionText" : "Who invented Aikido?",
+            "correctAnswer" : 4,
+            "answers" : {
+                "1" : " sample answer",
+                "2" : " sample answer",
+                "3" : " sample answer",
+                "4" : "Morihei Ueshiba"
+            }
+
+        },
+        "q2": {
+            "questionText" : "the second sample question quesiton ",
+            "correctAnswer" : 2,
+            "answers" : {
+                "1" : " sample answer",
+                "2" : " sample answer(correct)",
+                "3" : " sample answer",
+                "4" : " sample answer"
+            }
+
+        }
+    }
+}

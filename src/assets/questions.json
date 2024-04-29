@@ -1,0 +1,104 @@
+{
+    "questions": {
+        "q1": {
+            "questionText": "What is the full form of JSON?",
+            "correctAnswer": 1,
+            "answers": {
+                "1": "JavaScript Object Notation",
+                "2": "Java Super Object Notation",
+                "3": "JavaScript Only Notation",
+                "4": "Just a Simple Object Notation"
+            }
+        },
+        "q2": {
+            "questionText": "Which company developed JavaScript?",
+            "correctAnswer": 4,
+            "answers": {
+                "1": "Microsoft",
+                "2": "Apple",
+                "3": "IBM",
+                "4": "Netscape"
+            }
+        },
+        "q3": {
+            "questionText": "What symbol is used for comments in JavaScript?",
+            "correctAnswer": 3,
+            "answers": {
+                "1": "/* */",
+                "2": "<!-- -->",
+                "3": "//",
+                "4": "#"
+            }
+        },
+        "q4": {
+            "questionText": "Which method can be used to log a message to the console in JavaScript?",
+            "correctAnswer": 2,
+            "answers": {
+                "1": "print()",
+                "2": "console.log()",
+                "3": "printf()",
+                "4": "System.out.println()"
+            }
+        },
+        "q5": {
+            "questionText": "How do you declare a variable in JavaScript?",
+            "correctAnswer": 1,
+            "answers": {
+                "1": "var",
+                "2": "variable",
+                "3": "v",
+                "4": "declare"
+            }
+        },
+        "q6": {
+            "questionText": "What is the method in JavaScript used to remove the last element from an array and return that element?",
+            "correctAnswer": 4,
+            "answers": {
+                "1": "popLast()",
+                "2": "removeLast()",
+                "3": "deleteLast()",
+                "4": "pop()"
+            }
+        },
+        "q7": {
+            "questionText": "How to write an IF statement in JavaScript?",
+            "correctAnswer": 3,
+            "answers": {
+                "1": "if x = 5 then",
+                "2": "if x == 5 then",
+                "3": "if (x == 5)",
+                "4": "if x = 5"
+            }
+        },
+        "q8": {
+            "questionText": "Which JavaScript framework is maintained by Facebook?",
+            "correctAnswer": 1,
+            "answers": {
+                "1": "React",
+                "2": "Angular",
+                "3": "Vue",
+                "4": "Svelte"
+            }
+        },
+        "q9": {
+            "questionText": "Which data type in JavaScript is used for storing sequences of characters?",
+            "correctAnswer": 2,
+            "answers": {
+                "1": "Sequence",
+                "2": "String",
+                "3": "Char",
+                "4": "Text"
+            }
+        },
+        "q10": {
+            "questionText": "Which JavaScript method is used to decode a base-64 encoded string?",
+            "correctAnswer": 4,
+            "answers": {
+                "1": "decode()",
+                "2": "decode64()",
+                "3": "base64decode()",
+                "4": "atob()"
+            }
+        }
+    }
+}
