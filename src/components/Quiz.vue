@@ -1,5 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
+import questionsData from "../assets/questions.json"
+console.log("TEST TEST TEST",questionsData)
 
 defineProps({
   msg: String
@@ -48,8 +50,7 @@ function submitAnswer(){
 }
 
     onMounted(async () => {
-        const response = await fetch('./src/assets/questions.json');
-        info = await response.json();
+        info = questionsData;
         totalQuestions = Object.keys(info.questions).length;
         loadQuestion(currentQuestion);
         
