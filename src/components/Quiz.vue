@@ -99,7 +99,7 @@ function submitAnswer(){
                 <button id="submit-answer" @click="submitAnswer" v-bind:disabled="isSelected == 0" v-show="!gameOver"> SUBMIT </button>
                 <button @click="startAgain" v-show="gameOver"> PLAY AGAIN </button>
             </div>
-            <div class="copytext">Powered by Vue and Github Pages, bult by Filip Stojkovski 2024</div>
+            <div class="copytext">Powered by Vue and Github Pages, built by Filip Stojkovski 2024</div>
         </div>
     </div>
 </template>
