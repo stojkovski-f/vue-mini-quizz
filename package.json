@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "master -d dist",
+    "predeploy": "npm install",
+    "deploy": "npm run dev",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
