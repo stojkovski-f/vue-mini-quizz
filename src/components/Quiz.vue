@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import questionsData from "../assets/questions.json"
-console.log("TEST TEST TEST",questionsData)
 
 defineProps({
   msg: String
@@ -100,6 +99,7 @@ function submitAnswer(){
                 <button id="submit-answer" @click="submitAnswer" v-bind:disabled="isSelected == 0" v-show="!gameOver"> SUBMIT </button>
                 <button @click="startAgain" v-show="gameOver"> PLAY AGAIN </button>
             </div>
+            <div class="copytext">Powered by Vue and Github Pages, bult by Filip Stojkovski 2024</div>
         </div>
     </div>
 </template>

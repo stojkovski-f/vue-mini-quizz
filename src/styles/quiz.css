@@ -4,6 +4,7 @@
     padding: 20px;
     margin: 20px auto 0;
     border-radius: 10px;
+    position: relative;
 
 }
 
@@ -69,3 +70,16 @@ button:disabled {
   color:white;
   border-radius: 10px;
 } 
+
+.copytext {
+    bottom:-25pt; 
+    left: 0;
+    position:absolute;
+    color:lightgray;
+    font-size: 10pt;
+}
+
+::selection {
+    background: lightpink;
+    color: black;
+}
